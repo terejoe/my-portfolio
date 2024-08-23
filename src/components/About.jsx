@@ -4,7 +4,7 @@ import potrait from '../assets/potrait.jpg'
 
 export default function About() {
   return (
-    <div name='about'className='w-full md:h-screen bg-[#010021] text-white md:pt-28'>
+    <div name='about'className='w-full md:h-screen bg-[#010021] text-white md:pt-28 px-4'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
 
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-4'>
@@ -17,7 +17,7 @@ export default function About() {
 
           <img src={potrait} alt='Potrait' className='h-96 mx-auto'/>
           
-          <div className='mt-8 pl-2'>
+          <div className='mt-8'>
             <p className='text-left text-4xl font-bold'>Hi, I'm Nkechinyere, It's so nice to meet you. Please take a look around.</p>
             <p className='mt-4 text-[#a7a7a7] text-left'>I am an enthusiastic front-end developer with excellent skills in my field. I take delight in developing clear and reusable code using frontend frameworks to create and maintain the client-side of a website that is user-friendly.</p>
 
