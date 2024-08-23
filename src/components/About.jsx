@@ -4,7 +4,7 @@ import potrait from '../assets/potrait.jpg'
 
 export default function About() {
   return (
-    <div name='about'className='w-full h-screen bg-[#010021] text-white md:pt-28'>
+    <div name='about'className='w-full md:h-screen bg-[#010021] text-white md:pt-28'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
 
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-4'>
@@ -13,7 +13,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className='w-[50%] grid grid-cols-2 mx-auto'>
+        <div className='w-[50%] grid md:grid-cols-2 mx-auto'>
 
           <img src={potrait} alt='Potrait' className='h-96'/>
           
