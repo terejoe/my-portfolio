@@ -13,7 +13,7 @@ export default function Project() {
         <div className='grid grid-cols-2 md:grid-cols-3 gap-10 mx-auto'>
           {/* One Item */}
           <div className='border-lg shadow-lg shadow-black container rounded-md justify-center items-center'>
-            <a href=' https://tickety-group10.netlify.app/'><img src={tickety} alt='Website' className='w-full'/></a>
+            <a href=' https://tickety-group10.netlify.app/'><img src={tickety} alt='Website' className='w-full rounded-t-md'/></a>
             <div className='px-6 py-2'>
               <p className='font-bold text-gray-500 text-xl mb-2'>Event Mangement System</p>
               <p className='text-white text-sm mb-2'>An event management system that you can create and view events.</p>
@@ -25,7 +25,7 @@ export default function Project() {
           </div>
 
           <div className='border-lg shadow-lg shadow-black container rounded-md justify-center items-center'>
-            <a href='https://kellslte-portfolio.netlify.app/'><img src={max} alt='Website' className='w-full'/></a>
+            <a href='https://kellslte-portfolio.netlify.app/'><img src={max} alt='Website' className='w-full rounded-t-md'/></a>
             <div className='px-6 py-2'>
               <p className='font-bold text-gray-500 text-xl mb-2'>Max's Portfolio</p>
               <p className='text-white text-sm mb-2'>Built a client's personal porfolio while displaying blogposts from hashnode on the website using graphql.</p>
@@ -37,7 +37,7 @@ export default function Project() {
           </div>
 
           <div className='border-lg shadow-lg shadow-black container rounded-md justify-center items-center'>
-            <a href='https://budget-and-expenses-applicatin.netlify.app/'><img src={budget} alt='Website' className='w-full'/></a>
+            <a href='https://budget-and-expenses-applicatin.netlify.app/'><img src={budget} alt='Website' className='w-full rounded-t-md'/></a>
             <div className='px-6 py-2'>
               <p className='font-bold text-gray-500 text-xl mb-2'>Budget App</p>
               <p className='text-white text-sm mb-2'>A budget app that calulates the expenses of the user.</p>
