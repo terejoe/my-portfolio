@@ -10,7 +10,7 @@ export default function Project() {
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-green-600'>Projects</p>
         </div>
 
-        <div className='grid grid-cols-2 md:grid-cols-3 gap-10 mx-auto'>
+        <div className='grid grid-cols-2 md:grid-cols-3 gap-10'>
           {/* One Item */}
           <div className='border-lg shadow-lg shadow-black container rounded-md justify-center items-center'>
             <a href=' https://tickety-group10.netlify.app/'><img src={tickety} alt='Website' className='w-full rounded-t-md'/></a>
