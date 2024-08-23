@@ -13,11 +13,11 @@ export default function About() {
           </div>
         </div>
 
-        <div className='w-[50%] grid md:grid-cols-2 mx-auto'>
+        <div className='md:w-[50%] grid md:grid-cols-2'>
 
-          <img src={potrait} alt='Potrait' className='h-96'/>
+          <img src={potrait} alt='Potrait' className='h-96 mx-auto'/>
           
-          <div className='mt-8'>
+          <div className='mt-8 pl-2'>
             <p className='text-left text-4xl font-bold'>Hi, I'm Nkechinyere, It's so nice to meet you. Please take a look around.</p>
             <p className='mt-4 text-[#a7a7a7] text-left'>I am an enthusiastic front-end developer with excellent skills in my field. I take delight in developing clear and reusable code using frontend frameworks to create and maintain the client-side of a website that is user-friendly.</p>
 
