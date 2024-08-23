@@ -10,9 +10,9 @@ export default function Project() {
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-green-600'>Projects</p>
         </div>
 
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-10 mx-auto'>
+        <div className='grid grid-cols-2 md:grid-cols-3 gap-10 mx-auto'>
           {/* One Item */}
-          <div className='border-lg shadow-lg shadow-black container rounded-md justify-center items-center md:w-[350px] overflow-hidden'>
+          <div className='border-lg shadow-lg shadow-black container rounded-md justify-center items-center'>
             <a href=' https://tickety-group10.netlify.app/'><img src={tickety} alt='Website' className='w-full'/></a>
             <div className='px-6 py-2'>
               <p className='font-bold text-gray-500 text-xl mb-2'>Event Mangement System</p>
@@ -24,7 +24,7 @@ export default function Project() {
             </div>
           </div>
 
-          <div className='border-lg shadow-lg shadow-black container rounded-md justify-center items-center md:w-[350px] overflow-hidden'>
+          <div className='border-lg shadow-lg shadow-black container rounded-md justify-center items-center'>
             <a href='https://kellslte-portfolio.netlify.app/'><img src={max} alt='Website' className='w-full'/></a>
             <div className='px-6 py-2'>
               <p className='font-bold text-gray-500 text-xl mb-2'>Max's Portfolio</p>
@@ -36,7 +36,7 @@ export default function Project() {
             </div>
           </div>
 
-          <div className='border-lg shadow-lg shadow-black container rounded-md justify-center items-center md:w-[350px] overflow-hidden'>
+          <div className='border-lg shadow-lg shadow-black container rounded-md justify-center items-center'>
             <a href='https://budget-and-expenses-applicatin.netlify.app/'><img src={budget} alt='Website' className='w-full'/></a>
             <div className='px-6 py-2'>
               <p className='font-bold text-gray-500 text-xl mb-2'>Budget App</p>
