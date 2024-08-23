@@ -37,7 +37,7 @@ export default function Contact() {
       });
   }
   return (
-    <div name='contact' className='w-full md:h-screen bg-[#010021] justify-center items-start p-4 pt-20 '>
+    <div name='contact' className='w-full bg-[#010021] justify-center items-start p-4 pt-20 '>
       <div className='pb-4 mb-2 text-center'>
         <p className='text-4xl font-bold inline border-b-4 border-green-600 text-gray-300'>Contact</p>
           <div className='text-[#a7a7a7] mt-2'>Kindly fill out the form below or shoot me an email to get in touch.</div>

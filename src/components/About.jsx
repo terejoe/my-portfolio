@@ -13,7 +13,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className='md:w-[50%] grid md:grid-cols-2'>
+        <div className='md:w-[50%] md:flex gap-4'>
 
           <img src={potrait} alt='Potrait' className='h-96 mx-auto'/>
           
