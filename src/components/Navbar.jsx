@@ -15,10 +15,10 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <ul className='hidden md:flex mr-20 justify-between w-[30%]'>
-          <li className='  hover:text-[#a7a7a7]'><Link  to="home" smooth={true} duration={500}>Home</Link></li>
-          <li className='  hover:text-[#a7a7a7]'><Link  to="about" smooth={true} duration={500}>About</Link></li>
-          <li className='  hover:text-[#a7a7a7]'><Link  to="projects" smooth={true} duration={500}>Projects</Link></li>
-          <li className='  hover:text-[#a7a7a7]'><Link  to="contact" smooth={true} duration={500}>Contact</Link></li>
+          <li className='  hover:text-[#a7a7a7] cursor-pointer'><Link  to="home" smooth={true} duration={500}>Home</Link></li>
+          <li className='  hover:text-[#a7a7a7] cursor-pointer'><Link  to="projects" smooth={true} duration={500}>Projects</Link></li>
+          <li className='  hover:text-[#a7a7a7] cursor-pointer'><Link  to="about" smooth={true} duration={500}>About</Link></li>
+          <li className='  hover:text-[#a7a7a7] cursor-pointer'><Link  to="contact" smooth={true} duration={500}>Contact</Link></li>
         </ul>
         
         
@@ -29,10 +29,10 @@ export default function Navbar() {
 
         {/* Hamburger Menu Items */}
         <ul className = {!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#010021] flex flex-col justify-center items-center'}>
-          <li className='py-6 text-4xl'><Link onClick = {handleClick} to="home" smooth={true} duration={500}>Home</Link></li>
-          <li className='py-6 text-4xl'><Link onClick = {handleClick} to="about" smooth={true} duration={500}>About</Link></li>
-          <li className='py-6 text-4xl'><Link onClick = {handleClick} to="projects" smooth={true} duration={500}>Projects</Link></li>
-          <li className='py-6 text-4xl'><Link onClick = {handleClick} to="contact" smooth={true} duration={500}>Contact</Link></li>
+          <li className='py-6 text-4xl cursor-pointer'><Link onClick = {handleClick} to="home" smooth={true} duration={500}>Home</Link></li>
+          <li className='py-6 text-4xl cursor-pointer'><Link onClick = {handleClick} to="projects" smooth={true} duration={500}>Projects</Link></li>
+          <li className='py-6 text-4xl cursor-pointer'><Link onClick = {handleClick} to="about" smooth={true} duration={500}>About</Link></li>
+          <li className='py-6 text-4xl cursor-pointer'><Link onClick = {handleClick} to="contact" smooth={true} duration={500}>Contact</Link></li>
         </ul>
         
     </div>

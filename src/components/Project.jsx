@@ -4,13 +4,13 @@ import budget from '../assets/budget.png'
 
 export default function Project() {
   return (
-    <div name ='projects' className='w-full pt-10 md:pt-40 bg-[#010021] text-gray-300'>
+    <div name ='projects' className='w-full md:pt-20 h-screen bg-[#010021] text-gray-300'>
       <div className='md:pl-40 p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-6'>
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-green-600'>Projects</p>
         </div>
 
-        <div className='grid grid-cols-2 md:grid-cols-3 gap-10'>
+        <div className='grid md:grid-cols-3 gap-10'>
           {/* One Item */}
           <div className='border-lg shadow-lg shadow-black container rounded-md justify-center items-center'>
             <a href=' https://tickety-group10.netlify.app/'><img src={tickety} alt='Website' className='w-full rounded-t-md'/></a>
