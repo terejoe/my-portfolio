@@ -52,7 +52,7 @@ export default function Contact() {
       </form>
 
       <div>
-        <ul className='flex text-center justify-center'>    
+        <ul className='flex text-center justify-center mb-2'>    
           <li className='mx-2 px-0 bg-blue-600 w-[40px] h-[40px] items-center justify-center flex rounded-md'><a href='https://www.linkedin.com/in/nkechinyere-tere-joe-nzeamalu'><FaLinkedin size={30} className='fill-white'/></a></li>
           
           {/* <li className='mx-2 px-0 bg-[#565f69] w-[40px] h-[40px] items-center justify-center flex rounded-md'><a href='/'><RiContactsFill size={30} className='fill-white'/></a></li>  */}
