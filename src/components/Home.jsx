@@ -21,7 +21,7 @@ export default function Home() {
         </h1>
         
         <p className="text-[#a7a7a7] ml-2 mt-2">
-          I am the ideal candidate for a frontend internship, driven by a deep
+          I am the ideal candidate for a frontend role, driven by a deep
           passion for web development and an unrelenting desire to learn and
           grow in an enabling environment.
         </p>
