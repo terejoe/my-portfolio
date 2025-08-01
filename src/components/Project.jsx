@@ -1,4 +1,4 @@
-import tickety from '../assets/tickety.png'
+import devon from '../assets/devon.png'
 import max from '../assets/max.png'
 import budget from '../assets/budget.png'
 
@@ -13,13 +13,13 @@ export default function Project() {
         <div className='grid md:grid-cols-3 gap-10'>
           {/* One Item */}
           <div className='border-lg shadow-lg shadow-black container rounded-md justify-center items-center'>
-            <a href=' https://tickety-group10.netlify.app/'><img src={tickety} alt='Website' className='w-full rounded-t-md'/></a>
+            <a href='https://www.devontech.io/'><img src={devon} alt='Website' className='w-full rounded-t-md'/></a>
             <div className='px-6 py-2'>
-              <p className='font-bold text-gray-500 text-xl mb-2'>Event Mangement System</p>
-              <p className='text-white text-sm mb-2'>An event management system that you can create and view events.</p>
+              <p className='font-bold text-gray-500 text-xl mb-2'>Devon Technologies LTD</p>
+              <p className='text-white text-sm mb-2'>Built a website for a Nigerian legal-tech company.</p>
               <div className='flex justify-between'>
-                <div><strong><a href='https://github.com/asmaaHamdym/Tickety'className='hover:text-green-300'>View Code</a></strong></div>
-                <div><strong><a href=' https://tickety-group10.nedivfy.app/' className='hover:text-green-300'>View Website</a></strong></div>
+                <div><strong><a href='https://github.com/DevonSRE/devon_app'className='hover:text-green-300'>View Code</a></strong></div>
+                <div><strong><a href='https://www.devontech.io/' className='hover:text-green-300'>View Website</a></strong></div>
               </div>
             </div>
           </div>
